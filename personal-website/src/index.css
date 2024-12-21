@@ -36,3 +36,9 @@
     @apply resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-1;
   }
 }
+
+@layer components {
+  .section {
+    @apply block w-full py-8; 
+  }
+}

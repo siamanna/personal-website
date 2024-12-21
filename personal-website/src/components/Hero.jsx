@@ -1,5 +1,5 @@
 import React from "react";
 
 export const Hero = () => {
-    return <>Hero</>
+    return <section className="section">Hero</section>
 }

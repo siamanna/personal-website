@@ -1,5 +1,5 @@
 import React from "react";
 
 export const ArrowSection = () => {
-    return <>ArrowSection</>
-}
+  return <section className="section">ArrowSection</section>;
+};

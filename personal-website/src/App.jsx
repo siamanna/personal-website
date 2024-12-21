@@ -10,7 +10,7 @@ import { Footer } from "./Components/Footer";
 
 const App = () => {
   return (
-    <div>
+    <div className="flex flex-col">
       <Header />
       <Hero />
       <ArrowSection />
