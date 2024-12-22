@@ -1,24 +1,24 @@
 import React from "react"
 import { Header } from "./components/Header";
-import { Hero } from "./Components/Hero";
-import { ArrowSection } from "./Components/ArrowSection";
-import { About } from "./Components/About";
-import { Skills } from "./Components/Skills";
-import { Portfolio } from "./Components/Portfolio";
-import { Contact } from "./Components/Contact";
-import { Footer } from "./Components/Footer";
+{/*import { Hero } from "./components/Hero";
+import { ArrowSection } from "./components/ArrowSection";
+import { About } from "./components/About";
+import { Skills } from "./components/Skills";
+import { Portfolio } from "./components/Portfolio";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";*/}
 
 const App = () => {
   return (
     <div className="flex flex-col">
       <Header />
-      <Hero />
+      {/*<Hero />
       <ArrowSection />
       <About />
       <Skills />
       <Portfolio />
       <Contact />
-      <Footer />
+      <Footer />*/}
     </div>
   );
 };

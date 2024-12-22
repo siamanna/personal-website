@@ -93,5 +93,5 @@ export const sections = [
     {
         title: "University Tour Guide",
         content: "I facilitate tours around the enginnering building at the University of New Hampshire."
-    }
-]
+    },
+];

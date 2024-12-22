@@ -7,10 +7,10 @@ import laptop from "../assets/img/logos/laptop.svg";
 export const Header = () => {
     return <header className="h-20 flex bg-black items-center fixed top-0 w-full text-white z-10">
         <div className="container mx-auto h-full flex items-center justify-center lg:justify-between">
-            <img src={siamanna}/>
-            <img src={laptop}/>
+            <img src={siamanna} className="w-1/4 hidden md:block lg:block" />
+            <img src={laptop} className="w-1/4 lg:hidden md:hidden sm:block"/>
             <NavBar />
             <Socials />
         </div>
     </header>
-}
+};
