@@ -1,0 +1,61 @@
+/* style.css */
+
+@font-face {
+    font-family: "Cascadia Code Nerd Font";
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/CaskaydiaCoveRegularNerdFontComplete.woff2') format('woff2'),
+         url('fonts/CaskaydiaCoveRegularNerdFontComplete.woff') format('woff');
+    font-variant-ligatures: none;  
+  }
+
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cascadia Code Nerd Font', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+
+  .page-container {
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  .card {
+    background-color: #fff;
+    color: #555;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  header {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-container input[type="text"],
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
