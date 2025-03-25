@@ -4,7 +4,7 @@
     <title>SIA MANNA</title>
     <style type="text/css">
       html {
-        font-family: 'Courier New', monospace;
+        font-family: 'Cascadia Code', Consolas, 'Courier New', monospace;
         color: #ffffff;
         box-sizing: border-box;
         padding: 0;
@@ -12,25 +12,40 @@
         outline: none;
       }
       body {
-        background-color: #000000;
+        background-color: #1E1E1E;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;    
+        justify-content: flex-start;
+        align-items: center;       
         height: 100vh;
         margin: 0;
+        padding-top: 20px;
       }
       h1 {
         font-size: 40px;
         text-align: center;
+        margin: 0;
       }
       h1 span {
         display: inline-block;
         white-space: nowrap;
         overflow: hidden;
         border-right: 5px solid #ffffff;
-        /* Run typewriter animation only once and keep the final state */
-        animation: typewriter 2s steps(40) 1 forwards,
-                    blink 800ms steps(40) infinite normal;
+        animation: typewriter 2s steps(40) 0s 1 forwards,
+                   blink 800ms steps(40) 0s infinite normal;
+      }
+      h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+      }
+      h2 span {
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 5px solid #ffffff;
+        animation: typewriter 2s steps(60) 2s 1 forwards,
+                   blink 800ms steps(60) 2s infinite normal;
       }
       @keyframes typewriter {
         from { width: 0; }
@@ -44,5 +59,6 @@
 </head>
 <body>
     <h1><span>This is Sia Manna's Portfolio.</span></h1>
+    <h2><span>Please enter your name and email address to access the website:</span></h2>
 </body>
 </html>
