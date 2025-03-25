@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>SIA MANNA</title>
+    <title>Typewriter Effect</title>
     <style type="text/css">
         html {
             color: #ffffff;
@@ -12,38 +12,36 @@
         }
         body {
             background-color: #000000;
+            display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            display: flex;
+            margin: 0;
         }
         h1 {
-            font-size: 40px; /* Reduced font size */
+            font-size: 40px;
+            text-align: center;
+        }
+        h1 span {
+            display: inline-block;
             white-space: nowrap;
             overflow: hidden;
-            animation: typewriter 2s steps(13) infinite alternate,
-                       blink 800ms steps(13) infinite normal;
             border-right: 5px solid #ffffff;
+            /* Run typewriter animation only once and keep the final state */
+            animation: typewriter 2s steps(40) 1 forwards,
+                       blink 800ms steps(40) infinite normal;
         }
         @keyframes typewriter {
-            from {
-                width: 0%;
-            }
-            to {
-                width: 100%;  /* Adjusted to reveal the full text */
-            }
+            from { width: 0; }
+            to { width: 100%; }
         }
         @keyframes blink {
-            from {
-                border-color: #ffffff;
-            }
-            to {
-                border-color: transparent;
-            }
+            from { border-color: #ffffff; }
+            to { border-color: transparent; }
         }
     </style>
 </head>
 <body>
-    <h1>This is Sia Manna's Portfolio.</h1>
+    <h1><span>This is Sia Manna's Portfolio.</span></h1>
 </body>
 </html>
