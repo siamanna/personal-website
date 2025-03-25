@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Login to Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <title>SIA MANNA</title>
+    <style type="text/css">
+        html {
+            color: #ffffff;
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            outline: none;
+        }
+        body {
+            background-color: #000000;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            display: flex;
+        }
+        h1 {
+            font-size: 40px; /* Reduced font size */
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typewriter 2s steps(13) infinite alternate,
+                       blink 800ms steps(13) infinite normal;
+            border-right: 5px solid #ffffff;
+        }
+        @keyframes typewriter {
+            from {
+                width: 0%;
+            }
+            to {
+                width: 100%;  /* Adjusted to reveal the full text */
+            }
+        }
+        @keyframes blink {
+            from {
+                border-color: #ffffff;
+            }
+            to {
+                border-color: transparent;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="login-container">
-    <h2>Login to gain Access to my Portfolio</h2>
-    <form id="loginForm">
-      <label for="name">Please enter your full name:</label><br>
-      <input type="text" id="name" name="name" placeholder="Your Full Name" required>
-      
-      <label for="email">Please enter your email address:</label><br>
-      <input type="email" id="email" name="email" placeholder="you@example.com" required>
-      
-      <button type="submit">Login</button>
-    </form>
-  </div>
-  <script src="script.js"></script>
+    <h1>This is Sia Manna's Portfolio.</h1>
 </body>
 </html>
